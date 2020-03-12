@@ -14,7 +14,7 @@ object OOBasics extends App {
   println(novel.authorAge)
   println(novel.isWrittenBy(imposter))
 
-  val counter = new Counter
+  val counter = new Counter(3);
   counter.inc.print
   counter.inc.inc.inc.print
   counter.inc(10).print
